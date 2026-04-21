@@ -50,7 +50,7 @@ Github Username: [Space for Username]
 2. **Analysis**: Open the `Assignment1.ipynb` notebook in a Jupyter environment to view our methodology and findings.
 
 ## License
-This project includes a copyright file as per repository best practices[cite: 11].
+This project includes a copyright file as per repository best practices.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
