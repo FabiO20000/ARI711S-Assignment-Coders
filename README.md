@@ -18,13 +18,25 @@ This repository contains our group's implementation for the ARI711S Artificial I
 
 ## Group Members & Contributions
 
-| Student Name | Student Number| GitHub Username |
-|..................|...........|.................|
-| Fiauana Denilson | 223078263 | FabiO20000 |
-| Elton Lisho      | 216070325 | EltonLisho |
-| Kuhatumwe Gloria | 224082221 | Gloria3211 |
-| Ananias Esther   | 223104922 | Esther-rub |
-| Namolo Wilhelm   | 223106143 | [Space for Username] |
+1.Fiauana Denilson 
+Student Number: 223078263 
+Github Username: FabiO20000 
+
+2.Elton Lisho
+Student Number: 216070325
+Github Username: EltonLisho
+
+3.Kuhatumwe Gloria 
+Student Number: 224082221 
+Github Username: Gloria3211 
+
+4.Ananias Esther
+Student Number: 223104922 
+Github Username: Esther-rub
+
+5.Namolo Wilhelm
+Student Number: 223106143 
+Github Username: [Space for Username] 
 
 ## Repository Structure
 * `tictactoe.py`: Contains the logic for the Minimax AI.
