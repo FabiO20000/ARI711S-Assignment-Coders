@@ -1,57 +1,133 @@
 # ARI711S-Assignment-Coders
-This repository contains the ARI711S Assignment solution for the group Assignment Coders. It includes a warehouse bot using A search, aCSP solver for MTC tower placement, an unbeatable Minimax Tic-Tac-Toe AI , and a SARSA reinforcement learning model. All code is documented in a single Python notebook.
 
------------------------------------------------------------------------------------------------------------------------------------------------
+This repository contains the solution for the **ARI711S Artificial Intelligence Assignment** (Informed Search section) completed by the group *Assignment Coders*.
 
-# ARI711S: Artificial Intelligence Assignment 
-**Group Name:** ARI711S Assignment Coders 
-**Institution:** Namibia University of Science and Technology (NUST)   
+---
+
+# ARI711S: Artificial Intelligence Assignment
+
+**Group Name:** ARI711S Assignment Coders
+**Institution:** Namibia University of Science and Technology (NUST)
 **Qualification:** Bachelor of Computer Science (Software Development)
-**Course Coordinator:** Naftali Indongo (Github name: naftalindeapo)
+**Course Coordinator:** Naftali Indongo (GitHub: naftalindeapo)
 
-## Project Overview
-This repository contains our group's implementation for the ARI711S Artificial Intelligence assignment. The project covers four key areas of AI:
-1. **Informed Search**: A warehouse logistics bot using **Greedy Best-First** and A* Search.
-2. **Optimization**: A **Constraint Satisfaction Problem (CSP)** solver for 5G tower placement.
-3. **Adversarial Search**: An unbeatable Tic-Tac-Toe AI powered by the **Minimax algorithm**.
-4. **Reinforcement Learning**: A **SARSA algorithm** implementation for a Gridworld MDP.
+---
 
-## Group Members & Contributions
+## 📌 Project Overview
 
-1.Fiauana Denilson 
-Student Number: 223078263 
-Github Username: FabiO20000 
+This project focuses on **Informed Search Algorithms**, specifically solving a **warehouse navigation problem**.
 
-2.Elton Lisho
-Student Number: 216070325
-Github Username: EltonLisho
+The goal is to move an agent from a starting position (**A**) to a goal position (**B**) while avoiding obstacles in a grid-based environment.
 
-3.Kuhatumwe Gloria 
-Student Number: 224082221 
-Github Username: Gloria3211 
+The following algorithms were implemented:
 
-4.Ananias Esther
-Student Number: 223104922 
-Github Username: Esther-rub
+* **Greedy Best-First Search**
+* **A* Search (A-Star)**
 
-5.Namolo Wilhelm
-Student Number: 223106143 
-Github Username: [Space for Username] 
+Both algorithms are compared in terms of:
 
-## Repository Structure
-* `tictactoe.py`: Contains the logic for the Minimax AI.
-* `runner.py`: The graphical interface to play against the AI.
-* `Assignment1.ipynb`: The primary Python notebook containing all solutions, test cases, and Markdown explanations.
-*`warehouse_path.png`: Visual output of the Warehouse Bot's optimal path.
-* `warehouse.txt`: The warehouse layout used for search testing.
+* Path efficiency
+* Optimality
+* Behavior in grid navigation
 
-## How to Run
-1. **Tic-Tac-Toe**: Run `python runner.py` to launch the game interface.
-2. **Analysis**: Open the `Assignment1.ipynb` notebook in a Jupyter environment to view our methodology and findings.
+---
 
-## License
-This project includes a copyright file as per repository best practices.
+## ⚙️ Key Features
 
----------------------------------------------------------------------------------------------------------------------------------------
+* Grid-based warehouse simulation
+* Pathfinding using informed search
+* Heuristic function (Euclidean Distance)
+* Path reconstruction
+* Visual representation of paths in the notebook
+* Comparison between Greedy and A*
+
+---
+
+## 👥 Group Members & Contributions
+
+1. **Fiauana Denilson**
+   Student Number: 223078263
+   GitHub Username: FabiO20000
+
+2. **Namolo Wilhelm**
+   Student Number: 223106143
+   GitHub Username: Focusrn
+
+---
+
+## 📂 Repository Structure
+
+* `ARI711S_Assignment_Notebook.ipynb` → Main notebook with explanations and results
+* `algorithms.py` → Implementation of Greedy and A* search algorithms
+* `warehouse.py` → Warehouse environment and grid handling
+* `node.py` → Node structure for search tree
+* `main.py` → Script to test algorithms via terminal
+* `maps/warehouse1.txt` → Input grid for the warehouse problem
+* `ARI711S_Report_Final.pdf` → Final report document
+* `README.md` → Project documentation
+
+---
+
+## 🚀 How to Run the Project
+
+### ▶ Option 1: Notebook (Recommended)
+
+1. Open `ARI711S_Assignment_Notebook.ipynb`
+2. Run all cells
+3. View:
+
+   * Paths generated
+   * Visual grid output
+   * Explanation of results
+
+---
+
+### ▶ Option 2: Python Script
+
+Run the following in terminal:
+
+```bash
+python main.py
+```
+
+---
+
+## 🧠 Algorithm Details
+
+### Greedy Best-First Search
+
+* Uses only the heuristic function
+* Faster but does not guarantee optimal solutions
+
+### A* Search
+
+* Uses:
+  f(n) = g(n) + h(n)
+* Guarantees optimal path when heuristic is admissible
+
+---
+
+## 📊 Conclusion
+
+The results show that:
+
+* **Greedy Search** is faster but may produce suboptimal paths
+* **A* Search** provides optimal and more reliable solutions
+
+---
+
+## 📄 Notes
+
+* The notebook contains full explanations and outputs as required by the assignment
+* All code is modular and well-documented
+* Visualization of paths is included for clarity
+
+---
+
+## 📜 License
+
+This project is submitted for academic purposes as part of ARI711S coursework.
+
+---
 
 **Note to Marker:** As requested, **naftalindeapo** has been added as a contributor to this repository.
